@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <source src="app.js">
+    <form name="travelForm">
+        First Name: <input type="text" placeholder="First Name" required name="First Name">
+        Last Name: <input type="text" placeholder="Last Name" required name="Last Name">
+        Age: <input type="number" placeholder="Age" required name="Age">
+        <div name="gender">
+        Male: <input type="radio" value="Male" name="gender">
+        Female: <input type="radio" value="Female" name="gender">
+        Other: <input type="radio" value="Other" name="gender">
+        </div>
+        <select name="Location">
+            <option>Denver</option>
+            <option>New York</option>
+            <option>Atlanta</option>
+        </select>
+        <div name="diet">
+        Dietary Restrictions:
+        Kosher: <input type="checkbox" value="kosher" name="diet">
+        Vegan: <input type="checkbox" value="vegan" name="diet">
+        </div>
+        <button name="submit">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
 </body>
 </html>

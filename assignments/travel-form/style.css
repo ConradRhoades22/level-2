@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    row-gap: 15px;
+    border-radius: 15px;
+}
+gender{
+    display: flex;
+    flex-direction: row;
+}
+diet{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: lightgrey;
+}
