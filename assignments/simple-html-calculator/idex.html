@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form name="first number" type="number"></form>
-    <form name="second number" type="number"></form>
-    <div id ="addition">
-        
-    </div>
-    <div id="subtraction">
+    <form id ="addition">
+        <input type="number" id="firstAdd">
+        <input type="number" id="secondAdd">
+        <button>Add</button>
+    </form>
+    <form id="subtraction">
+        <input type="number" id="firstSub">
+        <input type="number" id="secondSub">
+        <button>Subtract</button>
+    </form>
+    <form id="multiply">
+        <input type="number" id="firstMult">
+        <input type="number" id="secondMult">
+        <button>Multiply</button>
+    </form>
+    <div id="resultsDiv">
 
     </div>
-    <div id="multiply">
-
-    </div>
-    <div id="divide">
-        
-    </div>
+    <script src="index.js"></script>
 </body>
 </html>
