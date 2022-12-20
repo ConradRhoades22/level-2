@@ -8,11 +8,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form>
-        <input type="number" name="goombas">
-        <input type="number" name="bob-ombs">
-        <input type="number" name="cheep-cheeps">
+    <header>Mario Pest Control</header>
+    <form name="baddiesForm">
+        <div>Goombas. Price: 5 coins
+        <input type="number" id="goombas" name="goombas" placeholder="Goombas">
+        <img src="https://w7.pngwing.com/pngs/993/604/png-transparent-goomba-illustration-super-mario-bros-new-super-mario-bros-goomba-mario-kart-heroes-super-mario-bros-nintendo-thumbnail.png" alt="">
+        </div>
+        <div>Bob-Ombs. Price: 7 coins
+        <input type="number" id="bob-ombs" name="bob-ombs" placeholder="Bob-ombs">
+        <img src="https://e7.pngegg.com/pngimages/368/979/png-clipart-black-bomb-illustration-mario-sonic-at-the-olympic-games-paper-mario-the-thousand-year-door-mario-luigi-superstar-saga-time-bomb-game-heroes-thumbnail.png" alt="">
+        </div>
+        <div>Cheep-Cheeps. Price: 11 coins
+        <input type="number" id="cheep-cheeps" name="cheep-cheeps" placeholder="Cheep-Cheeps">
+        <img src="https://e7.pngegg.com/pngimages/628/983/png-clipart-super-mario-3d-land-video-games-cheep-cheep-nintendo-3ds-game-computer-thumbnail.png" alt="">
+        </div>
+        <div class="submit"><button name="submit">Submit</button></div>
     </form>
+    <div id="totalPrice" class="total"></div>
+    <footer>
+        <p>123 Mushroom Way</p>
+        <p>Mushroom Kingdom</p>
+        <p>Email: iamaplumber@mario.com</p>
+        <p>Website: MPC.net</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
