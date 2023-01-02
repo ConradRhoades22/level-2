@@ -133,8 +133,8 @@
 //         age: 100
 //     }
 // ]));
-  // ["<h1>Angelina Jolie</h1><h2>80</h2>",
-  // "<h1>Eric Jones</h1><h2>2</h2>",
-  // "<h1>Paris Hilton</h1><h2>5</h2>",
-  // "<h1>Kayne West</h1><h2>16</h2>",
-  // "<h1>Bob Ziroll</h1><h2>100</h2>"]
+// ["<h1>Angelina Jolie</h1><h2>80</h2>",
+// "<h1>Eric Jones</h1><h2>2</h2>",
+// "<h1>Paris Hilton</h1><h2>5</h2>",
+// "<h1>Kayne West</h1><h2>16</h2>",
+// "<h1>Bob Ziroll</h1><h2>100</h2>"]
