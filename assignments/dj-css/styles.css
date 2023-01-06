@@ -1,0 +1,62 @@
+p {
+    display: flex;
+    padding: 100px;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    transition-delay: 500ms;
+    transition: all 500ms ease;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5em;
+    row-gap: 5em;
+}
+#Box1 {
+    background-color: aqua;
+}
+#Box1:hover{
+    background-color: blue;
+    border-radius: 10px;
+    scale: 1.5;
+}
+#Box2 {
+    background-color: darkred;
+}
+#Box2:hover{
+    background-color: rosybrown;
+    border-radius: 1000px;
+    text-shadow: 20px;
+}
+#Box3 {
+    background-color: darkgreen;
+}
+#Box3:hover{
+    background-color: green;
+    scale: 0.2;
+    padding: 200px;
+}#Box4 {
+    background-color: aliceblue;
+}
+#Box4:hover{
+    background-color: darkgray;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 200px;
+}#Box5 {
+    background-color: rgb(255, 0, 234);
+}
+#Box5:hover{
+    background-color: steelblue;
+    font-stretch: extra-expanded;
+    margin-left: 200px;
+}#Box6 {
+    background-color: slategrey;
+}
+#Box6:hover{
+    background-color: darkcyan;
+    font-variant: small-caps;
+    font-kerning: 100px;
+    letter-spacing: 50px;
+}
