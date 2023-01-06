@@ -12,8 +12,8 @@
 var user = {username: "sam", password: "123abc"};
 function login(username, password){
     try {
-        if (username = "sam") {throw "INVALID CREDENTIALS"}
-        if (password = "123abc") {throw "INVALID PASSWORD"}
+        if (username === "sam") {throw "INVALID CREDENTIALS"}
+        if (password === "123abc") {throw "INVALID PASSWORD"}
     } catch (error) {console.log(error)}
     return username + password
 }
