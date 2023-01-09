@@ -1,0 +1,161 @@
+@font-face {
+    font-family: verdeModerna;
+    src: url(verdemoderna.woff);
+}
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/juliussansone/v14/1Pt2g8TAX_SGgBGUi0tGOYEga5WOzHsX2aE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWx8QDP2V.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.container {
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    height: 50px;
+    text-align: left;
+    font-size: 1em;
+    border: none;
+    font-family: 'Libre Baskerville';
+    justify-content: center;
+}
+.header {
+    color: #fff;
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    background: #2d6360 50% 0 url(http://www.csszengarden.com/214/huntington.jpg), no repeat;
+    background-attachment: fixed, fixed, fixed, scroll;
+    justify-content: center;
+    text-align: center;
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg), url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+
+}
+button {
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: fit-content;
+    font-size: 1.3em;
+    border: none;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 0px 0px 4.8px;
+    padding-top: 12px 0px 0px;
+    line-height: 3em;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+}
+h2 {
+    font-family: 'Libre Baskerville' sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgba(255,255,255,0.6);
+    font-size: 1.5em;
+}
+h3{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #2e484c;
+}
+a {
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    display: inline-block;
+    color: #809b7e;
+}
+.header img{
+    height: 125px;
+}
+.title {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-content: center;
+    column-gap: 3em;
+}
+.title > div {
+    text-align: left;
+}
+.container > div {
+    border: solid black 2px;
+}
+.summary{
+    text-align: left;
+
+}
+body{
+    color: #325050;
+    background: #fff;
+    margin: 0;
+    font-size: 1em;
+}
+.authors {
+    background-color: lightcoral
+}
+.links {
+    background-color: lightpink
+}
+
+.footer {
+    background-color: #134347;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    /* use this media query to help these two cells drop to the bottom when screens are smaller */
+    .authors {
+    
+    }
+    .links {
+
+    }
+    /* container could use some help so that it's children are full screen width */
+    .container {
+        
+    }
+}
+
+/* FLEX */
+/* use flexbox to make the icons behave like css zen garden's social icons */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center; 
+}
+
+.icons > div {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 50%;
+    font-family: verdeModerna;
+}
