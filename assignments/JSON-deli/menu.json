@@ -1,0 +1,62 @@
+{
+    "Appetizers": [
+        {
+            "Loaded potato skins":{
+                "Ingredients":["potatos", "bacon", "chives", "green onions", "sour cream", "butter" ],
+                "Description":{"Desc.":"Baked potatos with the insides scooped out and then mixed with bacon, green onion,, chives , and butter. topped with sour cream."}
+            },
+            "Stuffed jalapeno bites":{
+                "Ingredients":["jalapeno", "cream cheese", "bacon", "velvetta cheese", "garlic", "scallions","cilantro"],
+                "Description":{"Desc.":"Sliced jalapenos with a flling of cream cheese, velvetta, garlic, cilatro, and bacon. topped with scallions"}
+            }
+        }
+    ],
+    "Cold Sandwhiches":[
+        {
+            "Poor boy sub":{
+                "Ingredients":["white bread", "bologna", "american cheese", "mayo", "mustard"],
+                "Description":{"Desc.":"A sandwich for the lesss fortunate, a white hoogie roll filled with bologna, american cheese, mustard and mayo"}
+            },
+            "Turkey BLT":{
+                "Ingredients":["wheat bread", "turkey", "bacon", "chedder cheese", "swiss cheese", "lettus", "tomato", "mayo", "mustard"],
+                "Description":{"Desc.":"Wheat bread lighltly toasted with turkey, lettus,and tomato. Optional toppings: swiss or american cheese, mayo, or mustard"}
+            }
+        }
+    ],
+    "Hot Sandwhiches":[
+        {
+            "Philly Cheesesteak":{
+                "Ingredients":["thin sliced steak", "motzzarella cheese", "onions", "pepperjack cheese", "white or wheat hoagie roll"],
+                "Description":{"Desc.": "Grilled seasoned steak topped with  motzzerallea and pepperjack cheese on white or wheat hoagie roll"}
+            },
+            "Georgeioso":{
+                "Ingredients":["balck forest ham", "turkey", "provalone cheese", "lettus", "tomato", "mayo", "wheat sandwhich roll", "vinegrette"],
+                "Description":{"Desc.": "A wheat or white sandwhich roll with balck forest ham, turkey, lettus, tomato, and provalone cheese. toasted and topped with mayo and a light vinegrette"}
+            }
+        }
+    ],
+    "Dessert":[
+        {
+            "NY Cheesecake":{
+                "Ingredients":["cream cheese", "graham cracker", "berries", "chocolate syrup"],
+                "Description":{"Desc.": "a baked dessert consisting of a cream cheese filling inside a graham cracker crust. topped witht the optional berries and/or chocolate syrup"}
+            },
+            "Glazed Doughnuts":{
+                "Ingredients":["dough", "sugar glaze"],
+                "Description":{"Desc.":"dough baked into a light and fluffy ring topped with a sugary glaze"}
+            }
+        }
+    ],
+    "Drinks":[
+        {
+            "Italian sodas":{
+                "Ingredients":["coke products", "pepsi products", "cream"],
+                "Description":{"Desc.": "your choice of soda product mixwd with a spach of sweet cream"}
+            },
+            "Shirly Temple":{
+                "Ingredients":["sprite", "strawberry flavor"],
+                "Description":{"Desc.": "sprite mixed with strawberry flaroring with the optional sweet cream"}
+            }
+        }
+    ]
+}
