@@ -1,7 +1,21 @@
 .completed {
     text-decoration: line-through;
 }
+#todoData{
+    display: flex;
+    flex-direction: column;
+}
 div{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.divContent{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-style: none;
 }
